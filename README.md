@@ -139,11 +139,9 @@ Your directory structure will look something like this:
 |   |    |     `-- index.js
 ```
 
-#### Example codes
+#### Example project
 
-```
-git clone git@github.com:aprilmintacpineda/redux-abstract-example.git
-```
+https://github.com/aprilmintacpineda/redux-abstract-example
 
 ## Discussions / Contributions
 
