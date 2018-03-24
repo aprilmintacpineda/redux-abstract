@@ -1,6 +1,6 @@
 {
   "name": "redux-abstract",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Abstracting redux to allow for more modularity.",
   "main": "build/index.js",
   "scripts": {
