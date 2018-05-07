@@ -1,10 +1,4 @@
-import {
-  mapActionTypesToActions,
-  mapControllersToActions
-} from '../../../build';
-
-import controllers from './controllers';
+import { mapActionTypesToActions } from '../../../build';
 import actionTypes from './actionTypes';
 
-export const actions = mapActionTypesToActions(actionTypes);
-export const stateControllers = mapControllersToActions(controllers, actionTypes);
+export default mapActionTypesToActions(actionTypes);

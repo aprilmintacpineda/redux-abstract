@@ -4,8 +4,10 @@
   "description": "Abstracting redux to allow for more modularity.",
   "main": "build/index.js",
   "scripts": {
-    "test": "npm run build && jest",
-    "build": "rm -rf build && babel src --out-dir build"
+    "test": "npm run build && jest && npm run eslint",
+    "build": "rm -rf build && babel src --out-dir build",
+    "eslint": "node node_modules/eslint/bin/eslint.js --parser babel-eslint 'src/**/**/*.js'",
+    "eslint-watch": "node node_modules/eslint-watch/bin/esw --parser babel-eslint 'src/**/**/*.js' --watch"
   },
   "repository": {
     "type": "git",
@@ -26,9 +28,12 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.3",
     "babel-plugin-transform-export-extensions": "^6.22.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "jest": "^22.4.2"
+    "eslint": "^4.19.1",
+    "eslint-watch": "^3.1.4",
+    "jest": "^22.4.3"
   }
 }

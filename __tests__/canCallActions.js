@@ -1,6 +1,6 @@
 import counterReducer from '../dev/reducers/counter';
 import initialState from '../dev/reducers/counter/initialState';
-import { actions } from '../dev/reducers/counter/actions';
+import actions from '../dev/reducers/counter/actions';
 import actionTypes from '../dev/reducers/counter/actionTypes';
 
 describe('testing reducer', () => {

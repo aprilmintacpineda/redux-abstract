@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -16,10 +16,10 @@ exports.default = function () {
   var action = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
   var controllers = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
 
-  if (!state || !action || !controllers) console.error("Please ensure that you pass the right parameters. Refer to documentation to learn more. https://github.com/aprilmintacpineda/redux-abstract");
+  if (!state || !action || !controllers) console.error('Please ensure that you pass the right parameters. Refer to documentation to learn more. https://github.com/aprilmintacpineda/redux-abstract');
 
   if (controllers && !controllers[action.type]) {
-    console.warn("You seem to have dispatched action type '" + action.type + "' with no corresponding controller!");
+    console.warn('You seem to have dispatched action type \'' + action.type + '\' with no corresponding controller!');
 
     return _extends({}, state);
   }
