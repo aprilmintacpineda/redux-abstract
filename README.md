@@ -1,3 +1,7 @@
+# Repo status?
+
+This library is actively being maintained by the developer. Feature requests, enhancements, and bug reports are all welcome to the issue section.
+
 Having trouble with reducers that reach thousands of lines of codes? You came to the right place! It's easier to maintain and debug files with codes that does not even have to reach 100 lines!
 
 You can stick to this:
