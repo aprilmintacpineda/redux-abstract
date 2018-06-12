@@ -1,13 +1,13 @@
 {
   "name": "redux-abstract",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Abstracting redux to allow for more modularity.",
   "main": "build/index.js",
   "scripts": {
     "test": "npm run build && jest && npm run eslint",
     "build": "rm -rf build && babel src --out-dir build",
-    "eslint": "node node_modules/eslint/bin/eslint.js --parser babel-eslint 'src/**/**/*.js'",
-    "eslint-watch": "node node_modules/eslint-watch/bin/esw --parser babel-eslint 'src/**/**/*.js' --watch"
+    "eslint": "node node_modules/eslint/bin/eslint.js src/**/*.js",
+    "eslint-watch": "node node_modules/eslint-watch/bin/esw src/**/*.js --watch"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/aprilmintacpineda/redux-abstract#readme",
   "dependencies": {
-    "redux": "^3.7.2"
+    "redux": "^4.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
