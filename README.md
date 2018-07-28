@@ -1,6 +1,4 @@
-# Repo status?
-
-**DEPRECATED** in favor of [react-context-api-store](https://aprilmintacpineda.github.io/react-context-api-store/) and [inferno-context-api-store](https://aprilmintacpineda.github.io/inferno-context-api-store/).
+# redux-abstract
 
 Having trouble with reducers that reach thousands of lines of codes? You came to the right place! It's easier to maintain and debug files with codes that does not even have to reach 100 lines!
 
