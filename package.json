@@ -10,7 +10,7 @@
     "README.md"
   ],
   "scripts": {
-    "test": "npm run build && jest && npm run eslint",
+    "test": "npm run build && jest --env=node && npm run eslint",
     "build": "rm -rf build && babel src --out-dir build",
     "eslint": "node node_modules/eslint/bin/eslint.js src/**/*.js --fix",
     "prettier": "prettier \"src/**/*.js\" --write",
@@ -36,13 +36,13 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-eslint": "^8.2.3",
+    "babel-eslint": "^8.2.6",
     "babel-plugin-transform-export-extensions": "^6.22.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^4.19.1",
-    "eslint-watch": "^3.1.4",
-    "jest": "^22.4.3",
+    "eslint-watch": "^3.1.5",
+    "jest": "^22.4.4",
     "prettier": "^1.14.2"
   }
 }
